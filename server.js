@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const ytdl = require('@distube/ytdl-core');
+const ytdl = require('ytdl-core');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -192,4 +192,5 @@ app.listen(PORT, () => {
     console.log(`✅ MediaVault Pro server running on port ${PORT}`);
     console.log(`🌐 API endpoints ready at http://localhost:${PORT}`);
 });
+
 
