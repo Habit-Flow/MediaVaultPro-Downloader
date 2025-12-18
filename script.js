@@ -3,7 +3,8 @@
 // ====================================
 // IMPORTANT: Replace with your Render backend URL
 // ====================================
-const API_URL = 'https://mediavaultpro-downloader-production.up.railway.app';
+const API_URL = 'https://your-app-name.onrender.com'; // CHANGE THIS TO YOUR RENDER URL!
+
 // DOM Elements
 const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('navMenu');
@@ -428,4 +429,3 @@ function showNotification(message, type = 'info') {
         setTimeout(() => notification.remove(), 300);
     }, 4000);
 }
-
